@@ -24,3 +24,8 @@
     padding-bottom: 5px;
     padding-left: 20px;
 }
+table {
+    border: 3px solid black;
+    margin:auto;
+    text-align: center;
+}
