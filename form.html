@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="styles/styles.css"/>
+
+</head>
+<body>
+
+<h1>Test Form</h1>
+
+<p>Below is our form. <a href="index.html"> Go Back.</a></p>
+
+<div class="form_bg">
+    <form>
+        <input type="text" id="user_fname" name="first_name">
+        <!-- <input> -->
+        <!-- <label> </label> -->
+        <label for="user_fname">First Name</label>
+        <br>
+        <input type="text" id="user_lname" name="last_name">
+        <label for="user_lname">Last Name</label>;
+        <br>
+        <label for="ccn">Credit Card #</label>
+        <input type="text" maxlength="16" id="ccn" name="credit_card_number">
+        <br>
+        <label for="cvv">CVV #</label>
+        <input type="text" maxlength="4" id="cvv" name="credict_card_code">
+        <br>
+        <label for="yourtime">Enter your current time</label>
+        <input type="time" id="yourtime" name="user_time">
+        <br>
+        <label for="yourdate">Enter your current date</label>
+        <input type="date" id="yourdate" name="user_date">
+        <br>
+        <input type="submit" id="sbmt" name="submit_form" value="Submit">
+    </form>
+</div>
+
+</body>
+</html>
