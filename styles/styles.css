@@ -1,4 +1,45 @@
 /* This is the beginning of the external style sheet */
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+/* The slidein animation was taken from MDN. */
+@keyframes rainbow {
+    0% {
+        color: blue;
+    }
+    12.5% {
+        color: purple;
+    }
+    25% {
+        color: indigo;
+    }
+    37.5% {
+        color: red;
+    }
+    50% {
+        color: orange;
+    }
+    62.5% {
+        color: yellow;
+    }
+    75% {
+        color: yellowgreen;
+    }
+    87.5% {
+        color: green;
+    }
+    100% {
+        color: blue;
+    }
+}
 .para_1_style {
     color: red;
     font-size: 16px;
@@ -31,4 +72,8 @@
 }
 .form_bg {
     background-color: #FFFFFFCC;
+}
+h1:hover {
+    transform: scale(1.0,1.5);
+    animation: rainbow 8s linear infinite;
 }
