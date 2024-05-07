@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<style>
+.montserrat-pleasework {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+<body style="background: url('Images/nature-water.gif') no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"class="montserrat-pleasework">
+    <audio controls autoplay>
+        <source src="Audio/desert sand feels warm at night - 新世界の弟子たち - 02 彼に続け、一人の彼のために.flac" type="audio/flac">
+        Your browser does not support the audio element. <!--Fallback text-->
+      </audio>
+<p style="border-radius: 15px;margin-top: 23%; margin-right: 40%; margin-left: 40%; text-align: center; font-size: large; background-color: rgba(255, 255, 255, 0.5)">
+    What's your phone number or email?
+    <br>
+    <div style="display: flex; justify-content: center;">
+        <form onsubmit="return myFunction()">
+            <input id="userInput" style="background-color: rgba(255, 255, 255, 0.5);" type="text" placeholder="Enter phone number or email" width="322px">
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+          <!--This script is a simple snippet that gets the user input and pops up your name when you go back to the main site after submission-->
+          <script>
+          function myFunction() {
+            var x = document.getElementById("userInput").value;
+            alert("Hi " + x);
+            window.location.href = "index.html";
+            return false; // Prevent form from submitting normally
+          }
+          </script>
+
+</p>
+<footer style="position: fixed;
+bottom: 0; left: 0; right: 0; padding: 20px; background-color: rgba(255, 255, 255, 0.5); text-align: center;">
+    Goober Eats &copy; 2023 | 
+    <a href="index.html">Go back</a> 
+</footer>
+</body>
+</html>
